@@ -1,0 +1,2 @@
+import{t as e}from"./rolldown-runtime.BO1CHSEM.mjs";function t(e,t){return{description:`When it comes to pressure washing in Alberta, only one business can be the best — and that's Alberta Pressure Washing! `,favicon:`https://framerusercontent.com/assets/ydHi0YvqaGJVHcRsVyzTUazyZPk.png`,robots:`max-image-preview:large`,title:`Alberta Pressure Washing | Full-Service Pressure Washers In Alberta, Canada`}}var n=e((()=>{}));export{t as n,n as t};
+//# sourceMappingURL=shared-lib.CI9YT2lP.mjs.map

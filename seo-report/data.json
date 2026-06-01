@@ -1,0 +1,620 @@
+[
+  {
+    "url": "https://albertapressurewashing.ca/gallery/concrete-cleaning",
+    "score": 80,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Title too long (75 chars). May be truncated in search results."
+      },
+      {
+        "type": "warning",
+        "message": "Meta description too short (118 chars). Aim for 150-160 characters."
+      },
+      {
+        "type": "error",
+        "message": "Missing <h1> heading"
+      },
+      {
+        "type": "warning",
+        "message": "1 image(s) missing alt text"
+      },
+      {
+        "type": "info",
+        "message": "No canonical URL specified"
+      }
+    ],
+    "passed": [
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Alberta Pressure Washing | Full-Service Pressure Washers In Alberta, Canada",
+      "description": "When it comes to pressure washing in Alberta, only one business can be the best — and that's Alberta Pressure Washing!",
+      "canonical": null,
+      "ogImage": null
+    }
+  },
+  {
+    "url": "https://albertapressurewashing.ca/gallery/fence-cleaning",
+    "score": 80,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Title too long (75 chars). May be truncated in search results."
+      },
+      {
+        "type": "warning",
+        "message": "Meta description too short (118 chars). Aim for 150-160 characters."
+      },
+      {
+        "type": "error",
+        "message": "Missing <h1> heading"
+      },
+      {
+        "type": "warning",
+        "message": "1 image(s) missing alt text"
+      },
+      {
+        "type": "info",
+        "message": "No canonical URL specified"
+      }
+    ],
+    "passed": [
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Alberta Pressure Washing | Full-Service Pressure Washers In Alberta, Canada",
+      "description": "When it comes to pressure washing in Alberta, only one business can be the best — and that's Alberta Pressure Washing!",
+      "canonical": null,
+      "ogImage": null
+    }
+  },
+  {
+    "url": "https://albertapressurewashing.ca/gallery/house-washing",
+    "score": 80,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Title too long (75 chars). May be truncated in search results."
+      },
+      {
+        "type": "warning",
+        "message": "Meta description too short (118 chars). Aim for 150-160 characters."
+      },
+      {
+        "type": "error",
+        "message": "Missing <h1> heading"
+      },
+      {
+        "type": "warning",
+        "message": "1 image(s) missing alt text"
+      },
+      {
+        "type": "info",
+        "message": "No canonical URL specified"
+      }
+    ],
+    "passed": [
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Alberta Pressure Washing | Full-Service Pressure Washers In Alberta, Canada",
+      "description": "When it comes to pressure washing in Alberta, only one business can be the best — and that's Alberta Pressure Washing!",
+      "canonical": null,
+      "ogImage": null
+    }
+  },
+  {
+    "url": "https://albertapressurewashing.ca/locations",
+    "score": 80,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Title too short (23 chars). Aim for 50-60 characters."
+      },
+      {
+        "type": "error",
+        "message": "Missing meta description"
+      },
+      {
+        "type": "info",
+        "message": "No canonical URL specified"
+      },
+      {
+        "type": "info",
+        "message": "Missing Open Graph meta tags (og:title, og:description)"
+      }
+    ],
+    "passed": [
+      "Single H1 heading present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Page Not Found | Framer",
+      "description": null,
+      "canonical": null,
+      "ogImage": null
+    }
+  },
+  {
+    "url": "https://albertapressurewashing.ca/privacy",
+    "score": 80,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Title too short (23 chars). Aim for 50-60 characters."
+      },
+      {
+        "type": "error",
+        "message": "Missing meta description"
+      },
+      {
+        "type": "info",
+        "message": "No canonical URL specified"
+      },
+      {
+        "type": "info",
+        "message": "Missing Open Graph meta tags (og:title, og:description)"
+      }
+    ],
+    "passed": [
+      "Single H1 heading present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Page Not Found | Framer",
+      "description": null,
+      "canonical": null,
+      "ogImage": null
+    }
+  },
+  {
+    "url": "https://albertapressurewashing.ca/terms",
+    "score": 80,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Title too short (23 chars). Aim for 50-60 characters."
+      },
+      {
+        "type": "error",
+        "message": "Missing meta description"
+      },
+      {
+        "type": "info",
+        "message": "No canonical URL specified"
+      },
+      {
+        "type": "info",
+        "message": "Missing Open Graph meta tags (og:title, og:description)"
+      }
+    ],
+    "passed": [
+      "Single H1 heading present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Page Not Found | Framer",
+      "description": null,
+      "canonical": null,
+      "ogImage": null
+    }
+  },
+  {
+    "url": "https://albertapressurewashing.ca/gallery",
+    "score": 82,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Title too long (75 chars). May be truncated in search results."
+      },
+      {
+        "type": "warning",
+        "message": "Meta description too short (118 chars). Aim for 150-160 characters."
+      },
+      {
+        "type": "error",
+        "message": "Missing <h1> heading"
+      },
+      {
+        "type": "warning",
+        "message": "1 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Alberta Pressure Washing | Full-Service Pressure Washers In Alberta, Canada",
+      "description": "When it comes to pressure washing in Alberta, only one business can be the best — and that's Alberta Pressure Washing!",
+      "canonical": "https://albertapressurewashing.ca/gallery",
+      "ogImage": null
+    }
+  },
+  {
+    "url": "https://albertapressurewashing.ca/gallery/gutter-cleaning",
+    "score": 82,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Title too long (75 chars). May be truncated in search results."
+      },
+      {
+        "type": "warning",
+        "message": "Meta description too short (118 chars). Aim for 150-160 characters."
+      },
+      {
+        "type": "error",
+        "message": "Missing <h1> heading"
+      },
+      {
+        "type": "warning",
+        "message": "1 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Alberta Pressure Washing | Full-Service Pressure Washers In Alberta, Canada",
+      "description": "When it comes to pressure washing in Alberta, only one business can be the best — and that's Alberta Pressure Washing!",
+      "canonical": "https://albertapressurewashing.ca/gallery/gutter-cleaning",
+      "ogImage": null
+    }
+  },
+  {
+    "url": "https://albertapressurewashing.ca/commercial-pressure-washing",
+    "score": 84,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Title too long (75 chars). May be truncated in search results."
+      },
+      {
+        "type": "warning",
+        "message": "Meta description too short (118 chars). Aim for 150-160 characters."
+      },
+      {
+        "type": "warning",
+        "message": "5 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Alberta Pressure Washing | Full-Service Pressure Washers In Alberta, Canada",
+      "description": "When it comes to pressure washing in Alberta, only one business can be the best — and that's Alberta Pressure Washing!",
+      "canonical": "https://albertapressurewashing.ca/commercial-pressure-washing",
+      "ogImage": null
+    }
+  },
+  {
+    "url": "https://albertapressurewashing.ca/concrete-cleaning",
+    "score": 84,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Title too long (75 chars). May be truncated in search results."
+      },
+      {
+        "type": "warning",
+        "message": "Meta description too short (118 chars). Aim for 150-160 characters."
+      },
+      {
+        "type": "warning",
+        "message": "5 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Alberta Pressure Washing | Full-Service Pressure Washers In Alberta, Canada",
+      "description": "When it comes to pressure washing in Alberta, only one business can be the best — and that's Alberta Pressure Washing!",
+      "canonical": "https://albertapressurewashing.ca/concrete-cleaning",
+      "ogImage": null
+    }
+  },
+  {
+    "url": "https://albertapressurewashing.ca/contact",
+    "score": 84,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Title too long (75 chars). May be truncated in search results."
+      },
+      {
+        "type": "warning",
+        "message": "Meta description too short (118 chars). Aim for 150-160 characters."
+      },
+      {
+        "type": "error",
+        "message": "Missing <h1> heading"
+      }
+    ],
+    "passed": [
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Alberta Pressure Washing | Full-Service Pressure Washers In Alberta, Canada",
+      "description": "When it comes to pressure washing in Alberta, only one business can be the best — and that's Alberta Pressure Washing!",
+      "canonical": "https://albertapressurewashing.ca/contact",
+      "ogImage": null
+    }
+  },
+  {
+    "url": "https://albertapressurewashing.ca/fence-cleaning",
+    "score": 84,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Title too long (75 chars). May be truncated in search results."
+      },
+      {
+        "type": "warning",
+        "message": "Meta description too short (118 chars). Aim for 150-160 characters."
+      },
+      {
+        "type": "warning",
+        "message": "5 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Alberta Pressure Washing | Full-Service Pressure Washers In Alberta, Canada",
+      "description": "When it comes to pressure washing in Alberta, only one business can be the best — and that's Alberta Pressure Washing!",
+      "canonical": "https://albertapressurewashing.ca/fence-cleaning",
+      "ogImage": null
+    }
+  },
+  {
+    "url": "https://albertapressurewashing.ca/gutter-cleaning",
+    "score": 84,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Title too long (75 chars). May be truncated in search results."
+      },
+      {
+        "type": "warning",
+        "message": "Meta description too short (118 chars). Aim for 150-160 characters."
+      },
+      {
+        "type": "warning",
+        "message": "5 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Alberta Pressure Washing | Full-Service Pressure Washers In Alberta, Canada",
+      "description": "When it comes to pressure washing in Alberta, only one business can be the best — and that's Alberta Pressure Washing!",
+      "canonical": "https://albertapressurewashing.ca/gutter-cleaning",
+      "ogImage": null
+    }
+  },
+  {
+    "url": "https://albertapressurewashing.ca/house-washing",
+    "score": 84,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Title too long (75 chars). May be truncated in search results."
+      },
+      {
+        "type": "warning",
+        "message": "Meta description too short (118 chars). Aim for 150-160 characters."
+      },
+      {
+        "type": "warning",
+        "message": "5 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Alberta Pressure Washing | Full-Service Pressure Washers In Alberta, Canada",
+      "description": "When it comes to pressure washing in Alberta, only one business can be the best — and that's Alberta Pressure Washing!",
+      "canonical": "https://albertapressurewashing.ca/house-washing",
+      "ogImage": null
+    }
+  },
+  {
+    "url": "https://albertapressurewashing.ca/power-washing",
+    "score": 84,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Title too long (75 chars). May be truncated in search results."
+      },
+      {
+        "type": "warning",
+        "message": "Meta description too short (118 chars). Aim for 150-160 characters."
+      },
+      {
+        "type": "warning",
+        "message": "5 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Alberta Pressure Washing | Full-Service Pressure Washers In Alberta, Canada",
+      "description": "When it comes to pressure washing in Alberta, only one business can be the best — and that's Alberta Pressure Washing!",
+      "canonical": "https://albertapressurewashing.ca/power-washing",
+      "ogImage": null
+    }
+  },
+  {
+    "url": "https://albertapressurewashing.ca/pressure-washing",
+    "score": 84,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Title too long (75 chars). May be truncated in search results."
+      },
+      {
+        "type": "warning",
+        "message": "Meta description too short (118 chars). Aim for 150-160 characters."
+      },
+      {
+        "type": "warning",
+        "message": "5 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Alberta Pressure Washing | Full-Service Pressure Washers In Alberta, Canada",
+      "description": "When it comes to pressure washing in Alberta, only one business can be the best — and that's Alberta Pressure Washing!",
+      "canonical": "https://albertapressurewashing.ca/pressure-washing",
+      "ogImage": null
+    }
+  },
+  {
+    "url": "https://albertapressurewashing.ca/roof-cleaning",
+    "score": 84,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Title too long (75 chars). May be truncated in search results."
+      },
+      {
+        "type": "warning",
+        "message": "Meta description too short (118 chars). Aim for 150-160 characters."
+      },
+      {
+        "type": "warning",
+        "message": "5 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Alberta Pressure Washing | Full-Service Pressure Washers In Alberta, Canada",
+      "description": "When it comes to pressure washing in Alberta, only one business can be the best — and that's Alberta Pressure Washing!",
+      "canonical": "https://albertapressurewashing.ca/roof-cleaning",
+      "ogImage": null
+    }
+  },
+  {
+    "url": "https://albertapressurewashing.ca/why-us",
+    "score": 84,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Title too long (75 chars). May be truncated in search results."
+      },
+      {
+        "type": "warning",
+        "message": "Meta description too short (118 chars). Aim for 150-160 characters."
+      },
+      {
+        "type": "warning",
+        "message": "5 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Alberta Pressure Washing | Full-Service Pressure Washers In Alberta, Canada",
+      "description": "When it comes to pressure washing in Alberta, only one business can be the best — and that's Alberta Pressure Washing!",
+      "canonical": "https://albertapressurewashing.ca/why-us",
+      "ogImage": null
+    }
+  },
+  {
+    "url": "https://albertapressurewashing.ca/",
+    "score": 88,
+    "issues": [
+      {
+        "type": "warning",
+        "message": "Title too long (75 chars). May be truncated in search results."
+      },
+      {
+        "type": "warning",
+        "message": "Meta description too short (118 chars). Aim for 150-160 characters."
+      },
+      {
+        "type": "warning",
+        "message": "3 image(s) missing alt text"
+      }
+    ],
+    "passed": [
+      "Single H1 heading present",
+      "Canonical URL is set",
+      "Open Graph meta tags present",
+      "Viewport meta tag present",
+      "Language attribute set"
+    ],
+    "meta": {
+      "title": "Alberta Pressure Washing | Full-Service Pressure Washers In Alberta, Canada",
+      "description": "When it comes to pressure washing in Alberta, only one business can be the best — and that's Alberta Pressure Washing!",
+      "canonical": "https://albertapressurewashing.ca/",
+      "ogImage": null
+    }
+  }
+]

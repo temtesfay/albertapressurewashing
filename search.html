@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Site Search</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f8f9fa; color: #1a1a2e; padding: 2rem; }
+.search-container { max-width: 640px; margin: 0 auto; }
+h1 { font-size: 1.5rem; margin-bottom: 1rem; }
+input[type="search"] { width: 100%; padding: 0.75rem 1rem; font-size: 1rem; border: 2px solid #e2e8f0; border-radius: 8px; outline: none; transition: border-color 0.2s; }
+input[type="search"]:focus { border-color: #6366f1; }
+.results { margin-top: 1.5rem; }
+.result-item { background: #fff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; margin-bottom: 0.75rem; text-decoration: none; display: block; color: inherit; transition: box-shadow 0.2s; }
+.result-item:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+.result-title { font-weight: 600; color: #4f46e5; margin-bottom: 0.25rem; }
+.result-path { font-size: 0.8rem; color: #64748b; margin-bottom: 0.25rem; }
+.result-excerpt { font-size: 0.9rem; color: #475569; }
+.no-results { color: #94a3b8; text-align: center; padding: 2rem 0; }
+.count { font-size: 0.85rem; color: #94a3b8; margin-bottom: 0.75rem; }
+</style>
+</head>
+<body>
+<div class="search-container">
+<h1>Search</h1>
+<input type="search" id="q" placeholder="Search pages..." autofocus>
+<div class="results" id="results"></div>
+</div>
+<script>
+(function() {
+var pages = [{"path":"/","title":"Alberta Pressure Washing | Full-Service Pressure Washers In Alberta, Canada","description":"When it comes to pressure washing in Alberta, only one business can be the best — and that","excerpt":"Get booked now! Effortless scheduling."},{"path":"/commercial-pressure-washing","title":"Alberta Pressure Washing | Full-Service Pressure Washers In Alberta, Canada","description":"When it comes to pressure washing in Alberta, only one business can be the best — and that","excerpt":"Our commercial pressure washing services are out of this world! At Alberta Pressure Washing, we’re serious about treating all our customers with the professionalism and care they deserve. We assist ou"},{"path":"/concrete-cleaning","title":"Alberta Pressure Washing | Full-Service Pressure Washers In Alberta, Canada","description":"When it comes to pressure washing in Alberta, only one business can be the best — and that","excerpt":"If you need professional concrete cleaning services in Alberta, you’ve come to the right place! We are Alberta's Pressure Washing, a locally owned business that specializes in all things pressure wash"},{"path":"/contact","title":"Alberta Pressure Washing | Full-Service Pressure Washers In Alberta, Canada","description":"When it comes to pressure washing in Alberta, only one business can be the best — and that","excerpt":"Get In Touch"},{"path":"/fence-cleaning","title":"Alberta Pressure Washing | Full-Service Pressure Washers In Alberta, Canada","description":"When it comes to pressure washing in Alberta, only one business can be the best — and that","excerpt":"If your fence is coated with a thick layer of grime, you’re going to need professional fence cleaning services. There’s no question about that! After all, trying to wash all those posts on your own co"},{"path":"/gallery","title":"Alberta Pressure Washing | Full-Service Pressure Washers In Alberta, Canada","description":"When it comes to pressure washing in Alberta, only one business can be the best — and that","excerpt":""},{"path":"/gutter-cleaning","title":"Alberta Pressure Washing | Full-Service Pressure Washers In Alberta, Canada","description":"When it comes to pressure washing in Alberta, only one business can be the best — and that","excerpt":"Is it time for you to schedule gutter cleaning services? Well, take a look at your rain gutters and make that decision for yourself. Are they covered with thick layers of dirt and grime? And do they s"},{"path":"/house-washing","title":"Alberta Pressure Washing | Full-Service Pressure Washers In Alberta, Canada","description":"When it comes to pressure washing in Alberta, only one business can be the best — and that","excerpt":"Why opt for professional house washing services in Alberta? Because it sure beats having to do all the work on your own! In fact, a house washing job that would take you all day long only takes the pr"},{"path":"/locations","title":"Page Not Found | Framer","description":"","excerpt":""},{"path":"/power-washing","title":"Alberta Pressure Washing | Full-Service Pressure Washers In Alberta, Canada","description":"When it comes to pressure washing in Alberta, only one business can be the best — and that","excerpt":"When you choose our power washing services, you’re protected by our satisfaction-guaranteed pledge. In other words, we won’t walk away from an appointment until you are happy with what you see. There’"},{"path":"/pressure-washing","title":"Alberta Pressure Washing | Full-Service Pressure Washers In Alberta, Canada","description":"When it comes to pressure washing in Alberta, only one business can be the best — and that","excerpt":"There is certainly a lot to like about our pressure cleaning services. However, as with all things, the price can make it or break it. So, what’s the verdict on the prices at Alberta's Pressure Washin"},{"path":"/privacy","title":"Page Not Found | Framer","description":"","excerpt":""},{"path":"/roof-cleaning","title":"Alberta Pressure Washing | Full-Service Pressure Washers In Alberta, Canada","description":"When it comes to pressure washing in Alberta, only one business can be the best — and that","excerpt":"When you need roof cleaning services, what are you going to do about it? Will you finally take action and find a business that can help you out? Or will you forget about it and put it off for another"},{"path":"/terms","title":"Page Not Found | Framer","description":"","excerpt":""},{"path":"/why-us","title":"Alberta Pressure Washing | Full-Service Pressure Washers In Alberta, Canada","description":"When it comes to pressure washing in Alberta, only one business can be the best — and that","excerpt":"With over a decade of experience battling harsh Canadian elements, we\ndeliver industrial-strength cleaning with residential care. Fully licensed,\ninsured, and committed to excellence."}];
+var input = document.getElementById('q');
+var resultsEl = document.getElementById('results');
+
+function search(query) {
+    if (!query || query.length < 2) { resultsEl.innerHTML = ''; return; }
+    var q = query.toLowerCase();
+    var matches = pages.filter(function(p) {
+        return (p.title && p.title.toLowerCase().indexOf(q) !== -1) ||
+               (p.description && p.description.toLowerCase().indexOf(q) !== -1) ||
+               (p.excerpt && p.excerpt.toLowerCase().indexOf(q) !== -1);
+    });
+    if (matches.length === 0) {
+        resultsEl.innerHTML = '<div class="no-results">No results found.</div>';
+        return;
+    }
+    var html = '<div class="count">' + matches.length + ' result(s)</div>';
+    matches.forEach(function(p) {
+        var href = p.path === '/' ? 'index.html' : p.path.replace(/^\//, '') + '/index.html';
+        html += '<a class="result-item" href="' + href + '">' +
+            '<div class="result-title">' + esc(p.title || 'Untitled') + '</div>' +
+            '<div class="result-path">' + esc(p.path) + '</div>' +
+            '<div class="result-excerpt">' + esc(p.excerpt || p.description || '') + '</div>' +
+            '</a>';
+    });
+    resultsEl.innerHTML = html;
+}
+
+function esc(s) { var d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+
+input.addEventListener('input', function() { search(this.value); });
+})();
+</script>
+</body>
+</html>
