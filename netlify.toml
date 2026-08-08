@@ -1,0 +1,29 @@
+# Strip trailing "index.html" so only clean URLs are served.
+# The site's internal links all point at ".../index.html", so these 301s
+# rewrite every navigation to the clean URL that matches the page's
+# <link rel="canonical"> tag.
+#
+# force = true is required because the index.html files exist on disk and
+# would otherwise be served directly instead of redirected.
+
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/:slug/index.html"
+  to = "/:slug"
+  status = 301
+  force = true
+
+# Second-level pages (e.g. /gallery/concrete-cleaning/index.html)
+[[redirects]]
+  from = "/:parent/:slug/index.html"
+  to = "/:parent/:slug"
+  status = 301
+  force = true
+
+[build]
+  publish = "."
