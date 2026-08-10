@@ -1,370 +1,146 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, viewport-fit=cover">
-  <title>Page Not Found | Framer</title>
-  <style>
-    :root {
-      --color-background: #ffffff;
-      --color-primary: #333;
-      --color-secondary: #888;
-      --color-tint: #0099ff;
-      --font-size-body: 12px;
-      --font-size-title: 12px;
-    }
-    @font-face {
-      font-family: Inter;
-      src: url('/assets/framer/assets/hyOgCu0Xnghbimh0pE8QTvtt2AU.woff2');
-      font-display: swap;
-      font-style: normal;
-      font-weight: 600;
-      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
-        U+FE2E-FE2F;
-    }
-    @font-face {
-      font-family: Inter;
-      src: url('/assets/framer/assets/NeGmSOXrPBfEFIy5YZeHq17LEDA.woff2');
-      font-display: swap;
-      font-style: normal;
-      font-weight: 600;
-      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-    }
-    @font-face {
-      font-family: Inter;
-      src: url('/assets/framer/assets/oYaAX5himiTPYuN8vLWnqBbfD2s.woff2');
-      font-display: swap;
-      font-style: normal;
-      font-weight: 600;
-      unicode-range: U+1F00-1FFF;
-    }
-    @font-face {
-      font-family: Inter;
-      src: url('/assets/framer/assets/lEJLP4R0yuCaMCjSXYHtJw72M.woff2');
-      font-display: swap;
-      font-style: normal;
-      font-weight: 600;
-      unicode-range: U+0370-03FF;
-    }
-    @font-face {
-      font-family: Inter;
-      src: url('/assets/framer/assets/cRJyLNuTJR5jbyKzGi33wU9cqIQ.woff2');
-      font-display: swap;
-      font-style: normal;
-      font-weight: 600;
-      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
-        U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-    }
-    @font-face {
-      font-family: Inter;
-      src: url('/assets/framer/assets/1ZFS7N918ojhhd0nQWdj3jz4w.woff2');
-      font-display: swap;
-      font-style: normal;
-      font-weight: 600;
-      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
-        U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
-        U+2212, U+2215, U+FEFF, U+FFFD;
-    }
-    @font-face {
-      font-family: Inter;
-      src: url('/assets/framer/assets/A0Wcc7NgXMjUuFdquHDrIZpzZw0.woff2');
-      font-display: swap;
-      font-style: normal;
-      font-weight: 600;
-      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
-        U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
-    }
-    @font-face {
-      font-family: Inter;
-      src: url('/assets/framer/assets/5A3Ce6C9YYmCjpQx9M4inSaKU.woff2');
-      font-display: swap;
-      font-style: normal;
-      font-weight: 500;
-      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
-        U+FE2E-FE2F;
-    }
-    @font-face {
-      font-family: Inter;
-      src: url('/assets/framer/assets/Qx95Xyt0Ka3SGhinnbXIGpEIyP4.woff2');
-      font-display: swap;
-      font-style: normal;
-      font-weight: 500;
-      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-    }
-    @font-face {
-      font-family: Inter;
-      src: url('/assets/framer/assets/6mJuEAguuIuMog10gGvH5d3cl8.woff2');
-      font-display: swap;
-      font-style: normal;
-      font-weight: 500;
-      unicode-range: U+1F00-1FFF;
-    }
-    @font-face {
-      font-family: Inter;
-      src: url('/assets/framer/assets/xYYWaj7wCU5zSQH0eXvSaS19wo.woff2');
-      font-display: swap;
-      font-style: normal;
-      font-weight: 500;
-      unicode-range: U+0370-03FF;
-    }
-    @font-face {
-      font-family: Inter;
-      src: url('/assets/framer/assets/otTaNuNpVK4RbdlT7zDDdKvQBA.woff2');
-      font-display: swap;
-      font-style: normal;
-      font-weight: 500;
-      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
-        U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-    }
-    @font-face {
-      font-family: Inter;
-      src: url('/assets/framer/assets/d3tHnaQIAeqiE5hGcRw4mmgWYU.woff2');
-      font-display: swap;
-      font-style: normal;
-      font-weight: 500;
-      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
-        U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
-        U+2212, U+2215, U+FEFF, U+FFFD;
-    }
-    @font-face {
-      font-family: Inter;
-      src: url('/assets/framer/assets/DolVirEGb34pEXEp8t8FQBSK4.woff2');
-      font-display: swap;
-      font-style: normal;
-      font-weight: 500;
-      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
-        U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
-    }
-    
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --color-background: #000000;
-        --color-primary: #fff;
-        --color-secondary: #888;
-      }
-    }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Privacy Policy | Alberta Pressure Washing</title>
+<meta name="description" content="Privacy Policy for Alberta Pressure Washing - how we collect, use, and protect the information you share when requesting pressure washing services in Alberta.">
+<link rel="canonical" href="https://albertapressurewashing.ca/privacy">
+<meta property="og:title" content="Privacy Policy | Alberta Pressure Washing">
+<meta property="og:description" content="How Alberta Pressure Washing collects, uses, and protects your information.">
+<meta property="og:url" content="https://albertapressurewashing.ca/privacy">
+<link href="/assets/framer/images/MKEsfXhW75uuKXS5uybznyw7s.png" rel="icon">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{--navy:#0A1F44;--blue:#0B4D85;--accent:#2F6FE0;--light:#E8F0FE;--ink:#2b3446;--muted:#5b6472;--line:#e6eaf0}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--ink);background:#fff;line-height:1.6}
+  a{color:var(--blue)}
+  .bar{background:var(--accent);color:#fff;text-align:center;font-size:14px;padding:10px 16px}
+  .bar a{color:#fff;font-weight:700}
+  header{display:flex;align-items:center;justify-content:space-between;gap:16px;max-width:1200px;margin:0 auto;padding:16px 20px}
+  header .logo img{height:56px;width:auto;display:block}
+  nav a{color:var(--navy);font-weight:600;text-decoration:none;margin:0 12px;font-size:16px}
+  nav a:hover{color:var(--accent)}
+  .cta{background:var(--navy);color:#fff !important;padding:12px 22px;border-radius:999px;font-weight:700;text-decoration:none;white-space:nowrap}
+  .nav-wrap{display:flex;align-items:center;flex-wrap:wrap;gap:8px}
+  .hero{background:var(--navy);color:#fff;padding:64px 20px;text-align:center}
+  .hero h1{font-family:"Barlow Condensed",Inter,sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:.5px;font-size:clamp(36px,6vw,60px);margin:0 0 8px}
+  .hero p{margin:0;color:#c7d2e6}
+  main{max-width:820px;margin:0 auto;padding:48px 20px 24px}
+  main h2{font-size:22px;color:var(--navy);margin:34px 0 10px}
+  main p,main li{color:var(--muted);font-size:16px}
+  main ul{padding-left:22px}
+  .note{background:var(--light);border:1px solid #cfe0fb;border-radius:12px;padding:16px 18px;font-size:15px;color:var(--navy);margin:8px 0 8px}
+  footer{background:var(--navy);color:#c7d2e6;margin-top:40px}
+  .fgrid{max-width:1200px;margin:0 auto;padding:48px 20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:28px}
+  footer h3{color:#fff;font-size:16px;margin:0 0 12px}
+  footer a{color:#c7d2e6;text-decoration:none;display:block;padding:4px 0}
+  footer a:hover{color:#fff}
+  .copy{border-top:1px solid rgba(255,255,255,.12);text-align:center;padding:18px;font-size:14px}
+  @media(max-width:640px){nav a{margin:0 8px;font-size:15px}header .logo img{height:46px}}
+</style>
+</head>
+<body>
+<div class="bar">🌿 Spring is here — spots filling fast! <a href="tel:+17806803753">Call 780-680-3753</a> or <a href="/contact">request a free quote →</a></div>
+<header>
+  <a class="logo" href="/"><img src="/assets/framer/images/ydHi0YvqaGJVHcRsVyzTUazyZPk.png" alt="Alberta Pressure Washing"></a>
+  <div class="nav-wrap">
+    <nav><a href="/">Home</a><a href="/gallery">Gallery</a><a href="/why-us">Why Us</a><a href="/contact">Contact</a></nav>
+    <a class="cta" href="/contact">Get a FREE Quote →</a>
+  </div>
+</header>
+<section class="hero">
+  <h1>Privacy Policy</h1>
+  <p>Last updated: August 9, 2026</p>
+</section>
+<main>
+  <p>This Privacy Policy explains how <strong>Alberta Pressure Washing LLC</strong> ("we," "us," or "our") collects, uses, and protects information when you visit <a href="https://albertapressurewashing.ca">albertapressurewashing.ca</a> or request our services in Alberta, Canada.</p>
 
-    html,
-    body {
-      padding: 0;
-      margin: 0;
-      width: 100%;
-      min-height: 100vh;
-    }
+  <div class="note"><strong>Note for the site owner:</strong> Replace the bracketed placeholders below (e.g. <em>[YOUR CONTACT EMAIL]</em>) with your real details, and have this policy reviewed by a legal professional before relying on it.</div>
 
-    html {
-      box-sizing: border-box;
-      font-feature-settings: "liga", "clig";
-      font-variant-ligatures: common-ligatures;
-      text-rendering: optimizeLegibility;
-    }
+  <h2>1. Information We Collect</h2>
+  <p>When you request a quote or contact us, we may collect information you provide directly, including:</p>
+  <ul>
+    <li>Your name, phone number, and email address</li>
+    <li>Your property address and service area</li>
+    <li>Details about the service you are requesting</li>
+    <li>Any message or additional information you choose to share</li>
+  </ul>
+  <p>We may also automatically collect limited technical information such as your IP address, browser type, and pages visited, through cookies and similar technologies.</p>
 
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: var(--color-primary);
-      font-size: var(--font-size-body);
-      background: var(--color-background);
-    }
+  <h2>2. How We Use Your Information</h2>
+  <ul>
+    <li>To respond to your quote requests and inquiries</li>
+    <li>To schedule, provide, and follow up on services</li>
+    <li>To communicate with you about appointments and offers</li>
+    <li>To improve our website and services</li>
+    <li>To comply with legal obligations</li>
+  </ul>
 
-    a {
-      text-decoration: none;
-      vertical-align: baseline;
-    }
+  <h2>3. Cookies &amp; Analytics</h2>
+  <p>Our website may use cookies and third-party analytics tools (for example, Google Analytics) to understand how visitors use the site. These tools may collect information such as pages viewed and time on site. You can control cookies through your browser settings. If we run advertising, we may also use tools such as the Meta (Facebook) Pixel.</p>
 
-    svg {
-      vertical-align: middle;
-    }
+  <h2>4. How We Share Information</h2>
+  <p>We do not sell your personal information. We may share it with trusted service providers who help us operate our business (such as scheduling, communications, or website hosting), and when required by law.</p>
 
-    main {
-      box-sizing: border-box;
-      font-family: "Inter", sans-serif;
-      font-weight: 500;
-      max-width: 240px;
-      width: 100%;
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      padding: 0 20px;
-      text-wrap: balance;
-    }
+  <h2>5. Data Retention</h2>
+  <p>We keep your information only as long as necessary to provide our services, maintain business records, and meet legal requirements.</p>
 
-    .framer-logo {
-      color: var(--color-primary);
-      margin-bottom: 20px;
-    }
+  <h2>6. Your Rights</h2>
+  <p>Under Canadian privacy law (PIPEDA) and applicable Alberta legislation, you may request access to, correction of, or deletion of your personal information. To make a request, contact us using the details below.</p>
 
-    .title {
-      margin: 0 0 10px 0;
-      font-size: var(--font-size-title);
-      color: var(--color-primary);
+  <h2>7. Third-Party Links</h2>
+  <p>Our site may link to third-party websites (such as our Facebook page). We are not responsible for the privacy practices of those sites.</p>
 
-      text-align: center;
-    }
+  <h2>8. Children's Privacy</h2>
+  <p>Our services are directed to property owners and are not intended for children under 13. We do not knowingly collect information from children.</p>
 
-    .description {
-      color: var(--color-secondary);
-      margin-bottom: 20px;
-      line-height: 1.5em;
-      text-align: center;
-    }
+  <h2>9. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy from time to time. The "Last updated" date above reflects the most recent version.</p>
 
-    .btn--back {
-      background-color: var(--color-tint);
-      color: #ffffff;
-      padding-left: 8px;
-      padding-right: 8px;
-      border-radius: 8px;
-      line-height: 30px;
-      height: 30px;
-    }
-
-    .btn--back:hover {
-      opacity: 0.75;
-      transition: all 0.2s;
-    }
-  </style>
-
-  <meta name="robots" content="noindex,nofollow"></head><body><main>
-    <div class="logo">
-      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="21" fill="currentColor" class="framer-logo">
-        <path d="M 14 0 L 14 7 L 7 7 L 0 0 Z M 14 14 L 7 14 L 7 21 L 0 14 L 0 7 L 7 7 Z"></path>
-      </svg>
+  <h2>10. Contact Us</h2>
+  <p>If you have questions about this Privacy Policy or your information, contact us:</p>
+  <ul>
+    <li>Alberta Pressure Washing LLC</li>
+    <li>Phone: <a href="tel:+17806803753">780-680-3753</a></li>
+    <li>Email: [YOUR CONTACT EMAIL]</li>
+    <li>Service area: Edmonton and surrounding areas, Alberta, Canada</li>
+  </ul>
+</main>
+<footer>
+  <div class="fgrid">
+    <div>
+      <h3>Alberta Pressure Washing</h3>
+      <p style="color:#c7d2e6;margin:0">Professional pressure washing and exterior cleaning across Edmonton and Alberta.</p>
     </div>
-    <h1 class="title">Page Not Found</h1>
-    <div class="description">
-      The page you are looking for does not exist or may have been moved.
+    <div>
+      <h3>Services</h3>
+      <a href="/pressure-washing">Pressure Washing</a>
+      <a href="/house-washing">House Washing</a>
+      <a href="/roof-cleaning">Roof Cleaning</a>
+      <a href="/gutter-cleaning">Gutter Cleaning</a>
+      <a href="/fence-cleaning">Fence Cleaning</a>
+      <a href="/concrete-cleaning">Concrete Cleaning</a>
+      <a href="/commercial-pressure-washing">Commercial</a>
     </div>
-    <a href="../index.html" role="button" class="btn--back">Back to Home</a>
-  </main>
-
-<script>
-(function() {
-    var origin = "https://albertapressurewashing.ca";
-    var allowed = ["https://albertapressurewashing.ca/", "https://albertapressurewashing.ca/commercial-pressure-washing", "https://albertapressurewashing.ca/concrete-cleaning", "https://albertapressurewashing.ca/contact", "https://albertapressurewashing.ca/fence-cleaning", "https://albertapressurewashing.ca/gallery", "https://albertapressurewashing.ca/gallery/concrete-cleaning", "https://albertapressurewashing.ca/gallery/fence-cleaning", "https://albertapressurewashing.ca/gallery/gutter-cleaning", "https://albertapressurewashing.ca/gallery/house-washing", "https://albertapressurewashing.ca/gutter-cleaning", "https://albertapressurewashing.ca/house-washing", "https://albertapressurewashing.ca/locations", "https://albertapressurewashing.ca/power-washing", "https://albertapressurewashing.ca/pressure-washing", "https://albertapressurewashing.ca/privacy", "https://albertapressurewashing.ca/roof-cleaning", "https://albertapressurewashing.ca/terms", "https://albertapressurewashing.ca/why-us"];
-    var currentPath = "/privacy";
-    var relativeRoot = "../";
-
-    function normalizePath(pathname) {
-        var withoutIndex = pathname.replace(/\/index\.html$/i, "");
-        var withoutTrailingSlash = withoutIndex.replace(/\/$/, "");
-        return withoutTrailingSlash || "/";
-    }
-
-    function buildExportHref(url) {
-        var clean = normalizePath(url.pathname);
-        if (clean === currentPath && url.hash) {
-            return url.hash;
-        }
-
-        var targetPath = clean === "/" ? "index.html" : clean.substring(1) + "/index.html";
-        return relativeRoot + targetPath + (url.hash || "");
-    }
-    
-    function neutralizeLink(a) {
-        if (!a) return;
-        var rawHref = a.getAttribute("href");
-        if (!rawHref) return;
-        if (a.getAttribute("data-nce-checked") === rawHref) return;
-
-        a.setAttribute("data-nce-checked", rawHref);
-
-        // Ignore anchors, JS, mailto, tel
-        if (rawHref.indexOf("#") === 0 || rawHref.indexOf("javascript:") === 0 || rawHref.indexOf("mailto:") === 0 || rawHref.indexOf("tel:") === 0) return;
-
-        try {
-            // Crucial: Resolve against intended page URL, NOT local filesystem.
-            var url = new URL(rawHref, origin + "/privacy");
-            if (url.origin === origin) {
-                // Internal link
-                var clean = normalizePath(url.pathname);
-                var full = url.origin + clean;
-                var isExported = allowed.indexOf(full) !== -1;
-                
-                if (!isExported) {
-                    // Block unexported pages
-                    a.setAttribute("href", "javascript:void(0)");
-                    a.removeAttribute("target");
-                    a.style.cursor = "default";
-                } else {
-                    a.setAttribute("href", buildExportHref(url));
-                    if (a.style.cursor === "default") {
-                        a.style.cursor = "";
-                    }
-                }
-            } else {
-                // External link
-                if (a.getAttribute("target") !== "_blank") {
-                    a.setAttribute("target", "_top");
-                }
-            }
-        } catch(err) {}
-    }
-
-    // Process existing links immediately
-    document.querySelectorAll("a[href]").forEach(neutralizeLink);
-
-    // Watch for dynamically added links (e.g., React portals, dropdowns)
-    var observer = new MutationObserver(function(mutations) {
-        mutations.forEach(function(mutation) {
-            mutation.addedNodes.forEach(function(node) {
-                if (node.nodeType === 1) { // ELEMENT_NODE
-                    if (node.tagName === "A") neutralizeLink(node);
-                    if (node.querySelectorAll) {
-                        node.querySelectorAll("a[href]").forEach(neutralizeLink);
-                    }
-                }
-            });
-            if (mutation.type === "attributes" && mutation.attributeName === "href") {
-                neutralizeLink(mutation.target);
-            }
-        });
-    });
-    // Target documentElement to catch portals/overlays injected outside <body>
-    observer.observe(document.documentElement, { childList: true, subtree: true, attributes: true, attributeFilter: ["href"] });
-
-    // Fallback event blackhole for advanced SPAs targeting unexported links
-    var events = ["click", "mousedown", "mouseup", "pointerdown", "pointerup", "touchstart", "touchend"];
-    events.forEach(function(ev) {
-        document.addEventListener(ev, function(e) {
-            var a = e.target.closest("a");
-            if (!a) return;
-            var rawHref = a.getAttribute("href");
-            if (!rawHref || rawHref.indexOf("#") === 0) return;
-            
-            // Blackhole neutralized links completely across all interactions
-            if (rawHref.indexOf("javascript:void(0)") !== -1) {
-                e.preventDefault();
-                e.stopPropagation();
-                e.stopImmediatePropagation();
-                return;
-            }
-
-            // Offline file:// routing fallback
-            if (ev === "click" && window.location.protocol === "file:") {
-                try {
-                    var url = new URL(rawHref, origin + "/privacy");
-                    if (url.origin === origin) {
-                        e.preventDefault();
-                        e.stopPropagation();
-                        e.stopImmediatePropagation();
-                        
-                        var clean = normalizePath(url.pathname);
-                        var full = url.origin + clean;
-                        var isExported = allowed.indexOf(full) !== -1;
-                        if (isExported) {
-                            if (clean === currentPath && url.hash) {
-                                var el = document.querySelector(url.hash);
-                                if (el) { el.scrollIntoView({ behavior: 'smooth' }); }
-                                else { window.location.hash = url.hash; }
-                                return;
-                            }
-
-                            window.location.href = buildExportHref(url);
-                        }
-                        return;
-                    }
-                } catch(err) {}
-            }
-        }, true);
-    });
-})();
-</script></body></html>
+    <div>
+      <h3>Company</h3>
+      <a href="/why-us">Why Us</a>
+      <a href="/gallery">Gallery</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy Policy</a>
+      <a href="/terms">Terms of Service</a>
+    </div>
+    <div>
+      <h3>Get in touch</h3>
+      <a href="tel:+17806803753">📞 780-680-3753</a>
+      <a href="https://www.facebook.com/profile.php?id=61578197936648" target="_blank" rel="noopener">Facebook</a>
+    </div>
+  </div>
+  <div class="copy">© 2026 Alberta Pressure Washing LLC. All rights reserved.</div>
+</footer>
+</body>
+</html>
