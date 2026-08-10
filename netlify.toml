@@ -25,5 +25,12 @@
   status = 301
   force = true
 
+# Old URLs that Google still has indexed -> point them at the right page
+[[redirects]]
+  from = "/contact-old"
+  to = "/contact"
+  status = 301
+  force = true
+
 [build]
   publish = "."
