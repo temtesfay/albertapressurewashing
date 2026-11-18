@@ -9,7 +9,7 @@
 <link href="/assets/framer/images/MKEsfXhW75uuKXS5uybznyw7s.png" rel="icon">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
   :root{
     --navy:#0A1F44; --blue:#0B4D85; --bar:#2356D5; --yellow:#FFC800; --ink:#1f2a3d; --muted:#4b5563;
@@ -21,13 +21,13 @@
   a{color:inherit;text-decoration:none}
   img{max-width:100%;display:block}
   h1,h2,h3{margin:0;line-height:1.05}
-  .cond{font-family:"Barlow Condensed",Inter,sans-serif;text-transform:uppercase;font-weight:800;letter-spacing:.01em}
+  .cond{font-family:Inter,system-ui,-apple-system,sans-serif;text-transform:uppercase;font-weight:900;letter-spacing:-.01em}
   .wrap{max-width:1200px;margin:0 auto;padding:0 20px}
   .btn{display:inline-flex;align-items:center;gap:8px;font-weight:700;border-radius:999px;padding:15px 30px;font-size:16px;cursor:pointer;border:2px solid transparent;transition:.15s;white-space:nowrap}
   .btn-yellow{background:var(--yellow);color:var(--navy)}
   .btn-yellow:hover{filter:brightness(1.05)}
   .btn-navy{background:var(--navy);color:#fff}
-  .btn-navy:hover{background:#13294f}
+  .btn-navy:hover{background:#13294f} .nav .btn-navy{background:#0a1733} .nav .btn-navy:hover{background:#0f2342}
   .btn-ghost{background:transparent;color:#fff;border-color:#fff}
   .btn-ghost:hover{background:rgba(255,255,255,.12)}
 
@@ -37,10 +37,10 @@
 
   /* header */
   header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:50}
-  .nav{display:flex;align-items:center;justify-content:space-between;gap:20px;height:84px}
-  .logo img{height:58px;width:auto}
+  .nav{display:flex;align-items:center;justify-content:space-between;gap:20px;height:98px}
+  .logo img{height:76px;width:auto}
   .menu{display:flex;align-items:center;gap:30px}
-  .menu a{color:var(--navy);font-weight:600;font-size:16px}
+  .menu a{color:var(--navy);font-weight:600;font-size:20px}
   .menu a:hover{color:var(--bar)}
   .nav .btn{padding:13px 24px}
   .burger{display:none;background:none;border:0;cursor:pointer;padding:8px}
@@ -83,7 +83,7 @@
   .ba-imgs{display:flex;height:240px}
   .ba-imgs>div{flex:1;background-size:cover;background-position:center;position:relative}
   .ba-imgs>div span{position:absolute;top:12px;left:12px;background:rgba(0,0,0,.6);color:#fff;font-size:11px;font-weight:700;letter-spacing:.08em;padding:4px 9px;border-radius:5px}
-  .ba-imgs>div.after span{background:var(--green)}
+  .ba-imgs>div.after span{background:var(--yellow);color:var(--navy)}
   .ba-meta{padding:18px 20px;color:#fff}
   .ba-meta h3{font-size:19px;font-weight:700;text-transform:uppercase;letter-spacing:.02em}
   .ba-meta p{margin:4px 0 0;color:#9fb4d6;font-size:14px}
@@ -139,7 +139,7 @@
   @media(max-width:860px){
     .hero-grid,.about-grid{grid-template-columns:1fr;gap:34px}
     .about-img{order:-1}
-    .menu{position:absolute;top:84px;left:0;right:0;background:#fff;flex-direction:column;align-items:flex-start;gap:0;padding:8px 20px 20px;border-bottom:1px solid var(--line);display:none;box-shadow:0 20px 30px rgba(0,0,0,.08)}
+    .menu{position:absolute;top:98px;left:0;right:0;background:#fff;flex-direction:column;align-items:flex-start;gap:0;padding:8px 20px 20px;border-bottom:1px solid var(--line);display:none;box-shadow:0 20px 30px rgba(0,0,0,.08)}
     .menu a{padding:12px 0;width:100%;border-bottom:1px solid var(--line)}
     .nav .btn{display:none}
     #mtoggle:checked ~ .menu{display:flex}
