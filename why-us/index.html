@@ -49,6 +49,7 @@
   .menu a{color:var(--navy);font-weight:600;font-size:20px}
   .menu a:hover{color:var(--bar)}
   .nav .btn{padding:13px 24px}
+  .hcall{display:none}
   .burger{display:none;background:none;border:0;cursor:pointer;padding:8px}
   .burger span{display:block;width:26px;height:3px;background:var(--navy);border-radius:2px;margin:5px 0}
   #mtoggle{display:none}
@@ -163,6 +164,7 @@
     .nav .btn{display:none}
     #mtoggle:checked ~ .menu{display:flex}
     .burger{display:block}
+    .hcall{display:inline-flex;align-items:center;background:var(--navy);color:#fff;font-weight:700;padding:11px 20px;border-radius:999px;font-size:15px;white-space:nowrap}
   }
 
   .pg-hero{position:relative;color:#fff;padding:92px 0;background:#0A1F44;isolation:isolate;text-align:center}
@@ -206,6 +208,7 @@
 <div class="bar">🌿 Spring is here — spots filling fast! <a href="tel:+17806803753">Call 780-680-3753</a> or <a href="/contact">request a free quote online →</a></div><header>
   <div class="wrap nav">
     <a class="logo" href="/"><img src="/assets/framer/images/ydHi0YvqaGJVHcRsVyzTUazyZPk.png" alt="Alberta Pressure Washing"></a>
+    <a class="hcall" href="tel:+17806803753">Call Now</a>
     <input type="checkbox" id="mtoggle">
     <label class="burger" for="mtoggle" aria-label="Menu"><span></span><span></span><span></span></label>
     <nav class="menu">

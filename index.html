@@ -45,6 +45,7 @@
   .menu a{color:var(--navy);font-weight:600;font-size:20px}
   .menu a:hover{color:var(--bar)}
   .nav .btn{padding:13px 24px}
+  .hcall{display:none}
   .burger{display:none;background:none;border:0;cursor:pointer;padding:8px}
   .burger span{display:block;width:26px;height:3px;background:var(--navy);border-radius:2px;margin:5px 0}
   #mtoggle{display:none}
@@ -60,7 +61,7 @@
   .hero-btns{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:30px}
   .trust{display:flex;flex-wrap:wrap;gap:12px 26px}
   .trust span{display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:15px;color:#eaf1fb}
-  .chk{width:22px;height:22px;flex:0 0 auto;border-radius:50%;background:var(--green);color:#fff;display:grid;place-items:center;font-size:12px}
+  .trust .chk{flex:0 0 auto;color:var(--yellow);font-size:21px;font-weight:900;line-height:1;display:inline-flex}
 
   /* quote form card */
   .qcard{background:#fff;border-radius:18px;padding:28px;box-shadow:0 30px 60px rgba(0,0,0,.35);color:var(--ink)}
@@ -159,6 +160,11 @@
     .nav .btn{display:none}
     #mtoggle:checked ~ .menu{display:flex}
     .burger{display:block}
+    .hero{padding-top:0;padding-bottom:0}
+    .hero-grid{text-align:center;align-items:start;padding-top:22px;padding-bottom:48px}
+    .hero .sub{margin-left:auto;margin-right:auto}
+    .hero-btns,.trust{justify-content:center}
+    .hcall{display:inline-flex;align-items:center;background:var(--navy);color:#fff;font-weight:700;padding:11px 20px;border-radius:999px;font-size:15px;white-space:nowrap}
   }
 
   .hasdrop{position:relative}
@@ -195,6 +201,7 @@
 <header>
   <div class="wrap nav">
     <a class="logo" href="/"><img src="/assets/framer/images/ydHi0YvqaGJVHcRsVyzTUazyZPk.png" alt="Alberta Pressure Washing"></a>
+    <a class="hcall" href="tel:+17806803753">Call Now</a>
     <input type="checkbox" id="mtoggle">
     <label class="burger" for="mtoggle" aria-label="Menu"><span></span><span></span><span></span></label>
     <nav class="menu">
@@ -215,8 +222,8 @@
       <h1 class="cond">Edmonton's #1 Rated Cleaning Team</h1>
       <p class="sub">Get booked now! Effortless scheduling.</p>
       <div class="hero-btns">
-        <a class="btn btn-yellow" href="#quote">💬 Request Quote</a>
-        <a class="btn btn-navy" href="tel:+17806803753">📞 Call: 780-680-3753</a>
+        <a class="btn btn-yellow" href="#quote">Request Quote</a>
+        <a class="btn btn-navy" href="tel:+17806803753">Call: 780-680-3753</a>
       </div>
       <div class="trust">
         <span><span class="chk">✓</span> Fully Insured</span>
