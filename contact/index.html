@@ -15,7 +15,7 @@
 <meta name="twitter:title" content="Contact Alberta Pressure Washing | Free Quote in Edmonton">
 <meta name="twitter:description" content="Contact Alberta Pressure Washing for a fast, free quote on pressure washing in Edmonton and across Alberta. Call 780-680-3753 or request a quote online today.">
 <link href="/assets/framer/images/MKEsfXhW75uuKXS5uybznyw7s.png" rel="icon">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Mr+Dafoe&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Mr+Dafoe&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Mr+Dafoe&display=swap"></noscript>
 <style>
   :root{
     --navy:#0A1F44; --blue:#0B4D85; --bar:#2356D5; --yellow:#FFC800; --ink:#1f2a3d; --muted:#4b5563;
@@ -186,10 +186,21 @@
   .ct-row span{color:var(--muted);font-size:15.5px}
   .ct-row a{color:var(--blue);font-weight:700}
   @media(max-width:860px){.ct-grid{grid-template-columns:1fr}.qcard{order:-1}}
+
+  .hasdrop{position:relative}
+  .droplabel{color:var(--navy);font-weight:600;font-size:20px;cursor:pointer;user-select:none}
+  .hasdrop:hover .droplabel{color:var(--bar)}
+  .dropm{position:absolute;top:100%;left:50%;transform:translateX(-50%);margin-top:6px;min-width:250px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 22px 44px rgba(10,31,68,.16);padding:10px;display:none;z-index:70}
+  .hasdrop::after{content:"";position:absolute;top:100%;left:-10px;right:-10px;height:16px}
+  .hasdrop:hover .dropm{display:block}
+  .dropm a{display:block;padding:10px 16px;font-size:16px;color:var(--navy);border-radius:8px;font-weight:600;white-space:nowrap}
+  .dropm a:hover{background:var(--soft);color:var(--bar)}
+  @media(max-width:860px){.hasdrop{width:100%}.droplabel{display:block;padding:12px 0;width:100%;border-bottom:1px solid var(--line)}.dropm{position:static;transform:none;display:block;border:0;box-shadow:none;padding:2px 0 8px 14px;margin:0;min-width:0}.dropm a{padding:9px 0;font-size:15px;white-space:normal}.hasdrop::after{display:none}}
 </style>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://albertapressurewashing.ca/#business","name":"Alberta Pressure Washing","url":"https://albertapressurewashing.ca","image":"https://albertapressurewashing.ca/assets/framer/images/ydHi0YvqaGJVHcRsVyzTUazyZPk.png","logo":"https://albertapressurewashing.ca/assets/framer/images/ydHi0YvqaGJVHcRsVyzTUazyZPk.png","telephone":"+1-780-680-3753","description":"Professional pressure washing and exterior cleaning services in Edmonton and across Alberta - house washing, roof and gutter cleaning, concrete, fence, and commercial pressure washing.","areaServed":[{"@type":"City","name":"Edmonton"},{"@type":"State","name":"Alberta"}],"sameAs":["https://www.facebook.com/profile.php?id=61578197936648"]},{"@type":"WebSite","@id":"https://albertapressurewashing.ca/#website","url":"https://albertapressurewashing.ca","name":"Alberta Pressure Washing","publisher":{"@id":"https://albertapressurewashing.ca/#business"}}]}
 </script>
+<link rel="preload" as="image" href="/assets/framer/images/FTIhWw8OKzTTRCw9TCkoiOMArM.jpg" fetchpriority="high">
 </head>
 <body style="--hero:url('/assets/framer/images/FTIhWw8OKzTTRCw9TCkoiOMArM.jpg')">
 <div class="bar">🌿 Spring is here — spots filling fast! <a href="tel:+17806803753">Call 780-680-3753</a> or <a href="/contact">request a free quote online →</a></div><header>
@@ -199,7 +210,7 @@
     <label class="burger" for="mtoggle" aria-label="Menu"><span></span><span></span><span></span></label>
     <nav class="menu">
       <a href="/">Home</a>
-      <a href="/services">Services</a>
+      <div class="hasdrop"><span class="droplabel">Services ▾</span><div class="dropm"><a href="/pressure-washing">Pressure Washing</a><a href="/power-washing">Power Washing</a><a href="/house-washing">House Washing</a><a href="/roof-cleaning">Roof Cleaning</a><a href="/concrete-cleaning">Concrete Cleaning</a><a href="/gutter-cleaning">Gutter Cleaning</a><a href="/fence-cleaning">Fence Cleaning</a><a href="/commercial-pressure-washing">Commercial Pressure Washing</a></div></div>
       <a href="/gallery">Gallery</a>
       <a href="/why-us">Why Us</a>
       <a href="/contact">Contact</a>
